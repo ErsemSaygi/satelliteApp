@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.satelliteapp">
+
+<application>
+    <!-- Hilt’in test için kullandığı Activity -->
+    <activity
+        android:name="dagger.hilt.android.testing.HiltTestActivity"
+        android:theme="@style/Theme.SatelliteApp"
+        android:exported="true" />
+</application>
+
+    </manifest>
